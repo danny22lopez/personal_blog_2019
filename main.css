@@ -49,8 +49,37 @@ footer {
     grid-area: ft; 
 }
 
-.BlogBox {
-   height: 100px;
-   width: 100px;
-   border: 2px solid purple;  
+.blog-box {
+   display: flex;
+   justify-content: space-evenly;
+   height: 200px;
+   width: 200px;
+   margin: 50px; 
+   border: 2px solid orange;  
+   padding: 15px;
+   align-content: stretch; 
+
+}
+
+#blog1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: aquamarine; 
+}
+
+#sport-image {
+    width: 75%; 
+}
+
+
+#blog2 {
+    
+}
+
+#blog3 {
+    
+}
+
+#blog4 {
+    
 }
