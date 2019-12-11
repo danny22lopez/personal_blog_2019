@@ -134,3 +134,16 @@ aside ul li {
   padding: 10px;  
   font-size: 30px;
 }
+
+button {
+   
+    background-color:  #3578E5; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px; 
+}
