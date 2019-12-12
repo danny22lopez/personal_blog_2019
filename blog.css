@@ -1,3 +1,110 @@
+
 h1 {
-    color: red;
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
+
+.container {
+    display: grid;
+    width: 100%; 
+    height: 100%; 
+    margin: auto; 
+    grid-template-columns: 20% 70%; 
+    grid-template-rows: 8.5% 80% 8.5%;
+    grid-template-areas:
+    "hd hd hd hd"
+    "as con con con"
+    "ft ft ft ft";
+    border: 2px solid red;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px; 
+    justify-content: center; 
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid blue; */ 
+    padding: 15px; 
+}
+
+header {
+    border: 1px solid green; 
+    grid-area: hd;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #3578E5;   
+
+}
+
+content {
+    border: 1px solid black; 
+    grid-area: con;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(237, 240, 245); 
+}
+
+aside {
+    border: 1px solid purple; 
+    grid-area: as;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(237, 240, 245);
+}
+
+
+footer {
+    border: 1px solid orange;
+    grid-area: ft; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white; 
+    background-color:  #3578E5;
+}
+
+
+
+.aside-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+aside ul li {
+  padding: 10px;  
+  font-size: 30px;
+}
+
+button {
+   
+    background-color:  #3578E5; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px; 
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;  
+}
+
+#sports-h1 {
+    color: black; 
+}
+
+#food-h1 {
+    color: black; 
+}
+
+#health-h1 {
+    color: black; 
+}
+
+#fashion-h1 {
+    color: black; 
+}
+
+
