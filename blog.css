@@ -41,7 +41,8 @@ content {
     border: 1px solid black; 
     grid-area: con;
     font-family: 'PT Sans Narrow', sans-serif;
-    background-color: rgb(237, 240, 245); 
+    background-color: rgb(237, 240, 245);
+    font-size: 20px; 
 }
 
 aside {
@@ -87,8 +88,8 @@ button {
 }
 
 #avatar {
-    width: 100px;
-    height: 100px;  
+    width: 60px;
+    height: 60px;  
 }
 
 #sports-h1 {
@@ -107,4 +108,11 @@ button {
     color: black; 
 }
 
+.author-info {
+    display: inline; 
 
+}
+
+.fa {
+    padding: 5px; 
+}
